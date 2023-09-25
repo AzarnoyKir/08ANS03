@@ -1,0 +1,19 @@
+---
+clickhouse:
+  hosts:
+    clickhouse_01:
+      
+      ansible_host: 51.250.104.153
+      ansible_user: azarnoy
+vector:
+  hosts:
+    vector_01:
+      
+      ansible_host: 51.250.109.81
+      ansible_user: azarnoy
+lighthouse:
+  hosts:
+    lighthouse_01:
+      ansible_host: 158.160.76.106
+      ansible_user: azarnoy
+
